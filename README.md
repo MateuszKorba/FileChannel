@@ -4,9 +4,9 @@ Przeglądając rekursywnie drzewo katalogowe, zaczynające się od {user.home}/T
 Poniższy gotowy fragment winien wykonać całą robotę:
         
         public class Main {
-        public static void main(String[] args) {
-          String dirName = System.getProperty("user.home")+"/TPO1dir";
-          String resultFileName = "TPO1res.txt";
-          Futil.processDir(dirName, resultFileName);
+                public static void main(String[] args) {
+                        String dirName = System.getProperty("user.home")+"/TPO1dir";
+                        String resultFileName = "TPO1res.txt";
+                        Futil.processDir(dirName, resultFileName);
+                }
         }
-      }
